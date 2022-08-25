@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 
+#include "mpc.h"
+
 /* If we are compiling on Windows compile with these functions */
 #ifdef _WIN32
 #include <string.h>
